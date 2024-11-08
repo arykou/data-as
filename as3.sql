@@ -113,5 +113,3 @@ maximal_man as (
 select name from Employee
 where id in (select managerId from maximal_man)
 
-
--- ariya lohsped
